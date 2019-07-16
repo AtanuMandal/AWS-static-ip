@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    46179f5b-fd4e-4d8e-ad91-8ef94bc7e42e:
+      size:
+        width: 530
+        height: 320
+      position:
+        x: 120
+        'y': 110
+      z: 0
+      embeds: []
+Resources:
+  EC2VPC27D0G:
+    Type: 'AWS::EC2::VPC'
+    Properties:
+      CidrBlock: 10.10.0.0/16
+      EnableDnsHostnames: true
+      EnableDnsSupport: true
+      InstanceTenancy: default
